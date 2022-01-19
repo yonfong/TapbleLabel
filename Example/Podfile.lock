@@ -1,0 +1,16 @@
+PODS:
+  - TapbleLabel (0.1.0)
+
+DEPENDENCIES:
+  - TapbleLabel (from `../`)
+
+EXTERNAL SOURCES:
+  TapbleLabel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TapbleLabel: b7a68c406c4bcae8e2b52220617fdfcae9a25f38
+
+PODFILE CHECKSUM: fd6c12a7d374cc5953f264c9b93955a4e85ef6a1
+
+COCOAPODS: 1.11.2

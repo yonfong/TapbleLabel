@@ -1,0 +1,6 @@
+framework module Pods_TapbleLabel_Tests {
+  umbrella header "Pods-TapbleLabel_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

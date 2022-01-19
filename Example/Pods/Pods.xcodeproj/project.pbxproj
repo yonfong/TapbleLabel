@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D57EECCFBF50A1111E43F218CAAD5E4 /* UILabel+Tapble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBDDF5812D673828CB429F011390289 /* UILabel+Tapble.swift */; };
+		175F290A62FD9124FE8D9DAC5CD0E151 /* TapbleLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 887E730C00D1A23D3B01BB6B521D9DC7 /* TapbleLabel-dummy.m */; };
+		2687080E943DFD06B911918CAD14C441 /* TapbleLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6948A3DAE9958E3598584ACE75FC3F1E /* TapbleLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FD2BB484AC85FD4A8EF17DCD3B39C82 /* Pods-TapbleLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 533F76262A1DC2C2E93521D84DCEF3E4 /* Pods-TapbleLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DE0EC0D1384B11C8509F2DB0AB3B464 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7F4FE80860F17B7F15A90661FEE860CF /* Pods-TapbleLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C237D5F7D5ED7EEBD7D650CE5D5F9D /* Pods-TapbleLabel_Tests-dummy.m */; };
+		A4C54F56C52481C8047DCFF7C4B4CB6E /* Pods-TapbleLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F87244839C20822BC5191908FEDD876 /* Pods-TapbleLabel_Example-dummy.m */; };
+		D2BF465C816FA74ACA0A08878A6F535E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F0AC8100EFE63DE4B6414CE3D10D71BB /* Pods-TapbleLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 339A86379FB12C7D16ECD706B68690C1 /* Pods-TapbleLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3F33F3241BE9CCCCC71F0191607B5D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		461FFBB9EAF468D3128E51486F058FE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82E8CF1169D0163208C37FA1DBD65E82;
+			remoteInfo = "Pods-TapbleLabel_Example";
+		};
+		4F187B06B0440B6884962501781411D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54470744CE6C4BE3FA5313F3680F5E80;
+			remoteInfo = TapbleLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02992BFB8441264FAC88AB41C3CBF1BA /* Pods-TapbleLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TapbleLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0B91C2E86CFFBBF5268BD949441D8946 /* Pods-TapbleLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TapbleLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0DA0B044F93FBE9ED047E7C171D7AAD7 /* Pods-TapbleLabel_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TapbleLabel_Example-Info.plist"; sourceTree = "<group>"; };
+		0F87244839C20822BC5191908FEDD876 /* Pods-TapbleLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TapbleLabel_Example-dummy.m"; sourceTree = "<group>"; };
+		114953E0B173AAEF5C2DA85BA1304E8A /* Pods-TapbleLabel_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TapbleLabel_Example"; path = Pods_TapbleLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1479EFFAF8B97FD4100CABBE120ED310 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		27C237D5F7D5ED7EEBD7D650CE5D5F9D /* Pods-TapbleLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TapbleLabel_Tests-dummy.m"; sourceTree = "<group>"; };
+		339A86379FB12C7D16ECD706B68690C1 /* Pods-TapbleLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TapbleLabel_Example-umbrella.h"; sourceTree = "<group>"; };
+		504D7359E69BA23232F0B87C3C4FCC61 /* TapbleLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TapbleLabel-prefix.pch"; sourceTree = "<group>"; };
+		533F76262A1DC2C2E93521D84DCEF3E4 /* Pods-TapbleLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TapbleLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5FF5F38FF993472B938532A099DFD3BB /* TapbleLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TapbleLabel-Info.plist"; sourceTree = "<group>"; };
+		65A58192F7DF4F1E0CC261B580B74996 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6948A3DAE9958E3598584ACE75FC3F1E /* TapbleLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TapbleLabel-umbrella.h"; sourceTree = "<group>"; };
+		6FBDDF5812D673828CB429F011390289 /* UILabel+Tapble.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILabel+Tapble.swift"; path = "TapbleLabel/Classes/UILabel+Tapble.swift"; sourceTree = "<group>"; };
+		71B9B48FCC01F457DE3C75F6CE34890C /* Pods-TapbleLabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TapbleLabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		84F2F23AEA3CAA50A69A4BA2F569F32E /* Pods-TapbleLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TapbleLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
+		887E730C00D1A23D3B01BB6B521D9DC7 /* TapbleLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TapbleLabel-dummy.m"; sourceTree = "<group>"; };
+		96B9E75DA9AA7FE9247377AF9818CF2D /* Pods-TapbleLabel_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TapbleLabel_Tests"; path = Pods_TapbleLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		997024ABCEB77914285ECD7DC491A754 /* TapbleLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TapbleLabel.debug.xcconfig; sourceTree = "<group>"; };
+		9989B9132798B2DA87661B81AA4D098D /* TapbleLabel */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TapbleLabel; path = TapbleLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		999B03F155F127277A2CAD2E5DBA0608 /* Pods-TapbleLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TapbleLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D33649B59AF00CC0EB4C8A8AB1D5C96 /* Pods-TapbleLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TapbleLabel_Tests.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A00BCADF003966FB32C218C3FACD6577 /* Pods-TapbleLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TapbleLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AACC18B4DAD4930B8ACF4D0E3294F964 /* TapbleLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TapbleLabel.modulemap; sourceTree = "<group>"; };
+		BCAB9FD85BA19F01DABD385ADB0F8916 /* TapbleLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TapbleLabel.release.xcconfig; sourceTree = "<group>"; };
+		C4CD72E90D39AC5DF8687C020E29BACF /* Pods-TapbleLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TapbleLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CCC98E5A23C692D70CE003E59DFA0A29 /* Pods-TapbleLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TapbleLabel_Example.modulemap"; sourceTree = "<group>"; };
+		CF41B7F79287D8C03785E2F1A25A3AB9 /* Pods-TapbleLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TapbleLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D3415B15E98A35EC16C71B9B8F827801 /* Pods-TapbleLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TapbleLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D9530D65B6C307E3D7280F00EFDCC103 /* Pods-TapbleLabel_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TapbleLabel_Tests-Info.plist"; sourceTree = "<group>"; };
+		F410A024712165C1B233C6D0E5B0933F /* TapbleLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TapbleLabel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		622305C23D4C9BCDF9BCE87F649FE81D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2BF465C816FA74ACA0A08878A6F535E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8A3A0440248DEDD5B69328A3AF35C81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DE0EC0D1384B11C8509F2DB0AB3B464 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D877EEF51F301B0300C856DBD7EDF2F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F33F3241BE9CCCCC71F0191607B5D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06A82792690012985EAE2E5B97155166 /* TapbleLabel */ = {
+			isa = PBXGroup;
+			children = (
+				6FBDDF5812D673828CB429F011390289 /* UILabel+Tapble.swift */,
+				50951468590FEDDA9CCFACB3004460CE /* Pod */,
+				76AC9D9155F668880A53013438665771 /* Support Files */,
+			);
+			name = TapbleLabel;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1BE611527F17470D55265CD130D424C3 /* Pods-TapbleLabel_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9D33649B59AF00CC0EB4C8A8AB1D5C96 /* Pods-TapbleLabel_Tests.modulemap */,
+				C4CD72E90D39AC5DF8687C020E29BACF /* Pods-TapbleLabel_Tests-acknowledgements.markdown */,
+				02992BFB8441264FAC88AB41C3CBF1BA /* Pods-TapbleLabel_Tests-acknowledgements.plist */,
+				27C237D5F7D5ED7EEBD7D650CE5D5F9D /* Pods-TapbleLabel_Tests-dummy.m */,
+				D9530D65B6C307E3D7280F00EFDCC103 /* Pods-TapbleLabel_Tests-Info.plist */,
+				533F76262A1DC2C2E93521D84DCEF3E4 /* Pods-TapbleLabel_Tests-umbrella.h */,
+				999B03F155F127277A2CAD2E5DBA0608 /* Pods-TapbleLabel_Tests.debug.xcconfig */,
+				0B91C2E86CFFBBF5268BD949441D8946 /* Pods-TapbleLabel_Tests.release.xcconfig */,
+			);
+			name = "Pods-TapbleLabel_Tests";
+			path = "Target Support Files/Pods-TapbleLabel_Tests";
+			sourceTree = "<group>";
+		};
+		1E6439247463BCE4CB71FAEE25517F6E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06A82792690012985EAE2E5B97155166 /* TapbleLabel */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3B8AA6A2ED5E8961B8C35519517EDA3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				114953E0B173AAEF5C2DA85BA1304E8A /* Pods-TapbleLabel_Example */,
+				96B9E75DA9AA7FE9247377AF9818CF2D /* Pods-TapbleLabel_Tests */,
+				9989B9132798B2DA87661B81AA4D098D /* TapbleLabel */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50951468590FEDDA9CCFACB3004460CE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				65A58192F7DF4F1E0CC261B580B74996 /* LICENSE */,
+				1479EFFAF8B97FD4100CABBE120ED310 /* README.md */,
+				F410A024712165C1B233C6D0E5B0933F /* TapbleLabel.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		76AC9D9155F668880A53013438665771 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AACC18B4DAD4930B8ACF4D0E3294F964 /* TapbleLabel.modulemap */,
+				887E730C00D1A23D3B01BB6B521D9DC7 /* TapbleLabel-dummy.m */,
+				5FF5F38FF993472B938532A099DFD3BB /* TapbleLabel-Info.plist */,
+				504D7359E69BA23232F0B87C3C4FCC61 /* TapbleLabel-prefix.pch */,
+				6948A3DAE9958E3598584ACE75FC3F1E /* TapbleLabel-umbrella.h */,
+				997024ABCEB77914285ECD7DC491A754 /* TapbleLabel.debug.xcconfig */,
+				BCAB9FD85BA19F01DABD385ADB0F8916 /* TapbleLabel.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TapbleLabel";
+			sourceTree = "<group>";
+		};
+		C090F5B073861C352B6BA649B6DC3AC6 /* Pods-TapbleLabel_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CCC98E5A23C692D70CE003E59DFA0A29 /* Pods-TapbleLabel_Example.modulemap */,
+				71B9B48FCC01F457DE3C75F6CE34890C /* Pods-TapbleLabel_Example-acknowledgements.markdown */,
+				D3415B15E98A35EC16C71B9B8F827801 /* Pods-TapbleLabel_Example-acknowledgements.plist */,
+				0F87244839C20822BC5191908FEDD876 /* Pods-TapbleLabel_Example-dummy.m */,
+				84F2F23AEA3CAA50A69A4BA2F569F32E /* Pods-TapbleLabel_Example-frameworks.sh */,
+				0DA0B044F93FBE9ED047E7C171D7AAD7 /* Pods-TapbleLabel_Example-Info.plist */,
+				339A86379FB12C7D16ECD706B68690C1 /* Pods-TapbleLabel_Example-umbrella.h */,
+				A00BCADF003966FB32C218C3FACD6577 /* Pods-TapbleLabel_Example.debug.xcconfig */,
+				CF41B7F79287D8C03785E2F1A25A3AB9 /* Pods-TapbleLabel_Example.release.xcconfig */,
+			);
+			name = "Pods-TapbleLabel_Example";
+			path = "Target Support Files/Pods-TapbleLabel_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1E6439247463BCE4CB71FAEE25517F6E /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				3B8AA6A2ED5E8961B8C35519517EDA3E /* Products */,
+				DD6CD949F1646D96900D093664B66BBD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD6CD949F1646D96900D093664B66BBD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C090F5B073861C352B6BA649B6DC3AC6 /* Pods-TapbleLabel_Example */,
+				1BE611527F17470D55265CD130D424C3 /* Pods-TapbleLabel_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DB0B6C6E6519FF6238C5FE2C3F488B30 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0AC8100EFE63DE4B6414CE3D10D71BB /* Pods-TapbleLabel_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E51770A81125F9B47A3271653E29B87C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD2BB484AC85FD4A8EF17DCD3B39C82 /* Pods-TapbleLabel_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F364185BF96C492609E8815D55619B02 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2687080E943DFD06B911918CAD14C441 /* TapbleLabel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		54470744CE6C4BE3FA5313F3680F5E80 /* TapbleLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC2C7C62294AEF1A89CA65611E1DC7E /* Build configuration list for PBXNativeTarget "TapbleLabel" */;
+			buildPhases = (
+				F364185BF96C492609E8815D55619B02 /* Headers */,
+				D22AD4F85300273E932458DCE84FF126 /* Sources */,
+				622305C23D4C9BCDF9BCE87F649FE81D /* Frameworks */,
+				B26DA25F7C1B2937D4FDF9420F63ADD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapbleLabel;
+			productName = TapbleLabel;
+			productReference = 9989B9132798B2DA87661B81AA4D098D /* TapbleLabel */;
+			productType = "com.apple.product-type.framework";
+		};
+		82E8CF1169D0163208C37FA1DBD65E82 /* Pods-TapbleLabel_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB07E22859E2A7B1EF6E59B235798C83 /* Build configuration list for PBXNativeTarget "Pods-TapbleLabel_Example" */;
+			buildPhases = (
+				DB0B6C6E6519FF6238C5FE2C3F488B30 /* Headers */,
+				0903A2DB9F4CDF1C52F92F7007BF81C5 /* Sources */,
+				D877EEF51F301B0300C856DBD7EDF2F1 /* Frameworks */,
+				EF4B75A07D1F00748B5049EFC9485CA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BC7C5D032878E8E6529597689BD2BBB /* PBXTargetDependency */,
+			);
+			name = "Pods-TapbleLabel_Example";
+			productName = Pods_TapbleLabel_Example;
+			productReference = 114953E0B173AAEF5C2DA85BA1304E8A /* Pods-TapbleLabel_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		A25A4CD646C8EE2ED844ADDE41AEAD4A /* Pods-TapbleLabel_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 308B308F41EB8062EB83BAEA6C9B61A7 /* Build configuration list for PBXNativeTarget "Pods-TapbleLabel_Tests" */;
+			buildPhases = (
+				E51770A81125F9B47A3271653E29B87C /* Headers */,
+				E691A1CF793E061FB8025D5870A0AAE2 /* Sources */,
+				C8A3A0440248DEDD5B69328A3AF35C81 /* Frameworks */,
+				80940C02615DC5299AFBE41F0DFD28C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64850B3FAF3F4E32A7352EE0F29C2F52 /* PBXTargetDependency */,
+			);
+			name = "Pods-TapbleLabel_Tests";
+			productName = Pods_TapbleLabel_Tests;
+			productReference = 96B9E75DA9AA7FE9247377AF9818CF2D /* Pods-TapbleLabel_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3B8AA6A2ED5E8961B8C35519517EDA3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82E8CF1169D0163208C37FA1DBD65E82 /* Pods-TapbleLabel_Example */,
+				A25A4CD646C8EE2ED844ADDE41AEAD4A /* Pods-TapbleLabel_Tests */,
+				54470744CE6C4BE3FA5313F3680F5E80 /* TapbleLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80940C02615DC5299AFBE41F0DFD28C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B26DA25F7C1B2937D4FDF9420F63ADD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4B75A07D1F00748B5049EFC9485CA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0903A2DB9F4CDF1C52F92F7007BF81C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4C54F56C52481C8047DCFF7C4B4CB6E /* Pods-TapbleLabel_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D22AD4F85300273E932458DCE84FF126 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				175F290A62FD9124FE8D9DAC5CD0E151 /* TapbleLabel-dummy.m in Sources */,
+				0D57EECCFBF50A1111E43F218CAAD5E4 /* UILabel+Tapble.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E691A1CF793E061FB8025D5870A0AAE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F4FE80860F17B7F15A90661FEE860CF /* Pods-TapbleLabel_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64850B3FAF3F4E32A7352EE0F29C2F52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TapbleLabel_Example";
+			target = 82E8CF1169D0163208C37FA1DBD65E82 /* Pods-TapbleLabel_Example */;
+			targetProxy = 461FFBB9EAF468D3128E51486F058FE9 /* PBXContainerItemProxy */;
+		};
+		7BC7C5D032878E8E6529597689BD2BBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TapbleLabel;
+			target = 54470744CE6C4BE3FA5313F3680F5E80 /* TapbleLabel */;
+			targetProxy = 4F187B06B0440B6884962501781411D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03E7A771C06BB4306815A77E1EECD584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 999B03F155F127277A2CAD2E5DBA0608 /* Pods-TapbleLabel_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TapbleLabel_Tests/Pods-TapbleLabel_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TapbleLabel_Tests/Pods-TapbleLabel_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		514429A35B83ABEB5692511F1A82CE5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF41B7F79287D8C03785E2F1A25A3AB9 /* Pods-TapbleLabel_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TapbleLabel_Example/Pods-TapbleLabel_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TapbleLabel_Example/Pods-TapbleLabel_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5904244399FC50E3BC47DD6FAD67B833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCAB9FD85BA19F01DABD385ADB0F8916 /* TapbleLabel.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TapbleLabel/TapbleLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TapbleLabel/TapbleLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TapbleLabel/TapbleLabel.modulemap";
+				PRODUCT_MODULE_NAME = TapbleLabel;
+				PRODUCT_NAME = TapbleLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		72D4CC24135475FB7613AEC32E7BB59B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A00BCADF003966FB32C218C3FACD6577 /* Pods-TapbleLabel_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TapbleLabel_Example/Pods-TapbleLabel_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TapbleLabel_Example/Pods-TapbleLabel_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9F51B99AD433565DD81F1D9945F8CEC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B91C2E86CFFBBF5268BD949441D8946 /* Pods-TapbleLabel_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TapbleLabel_Tests/Pods-TapbleLabel_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TapbleLabel_Tests/Pods-TapbleLabel_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DF8C684223D2005E5FA144ECD9B73563 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 997024ABCEB77914285ECD7DC491A754 /* TapbleLabel.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TapbleLabel/TapbleLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TapbleLabel/TapbleLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TapbleLabel/TapbleLabel.modulemap";
+				PRODUCT_MODULE_NAME = TapbleLabel;
+				PRODUCT_NAME = TapbleLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		308B308F41EB8062EB83BAEA6C9B61A7 /* Build configuration list for PBXNativeTarget "Pods-TapbleLabel_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E7A771C06BB4306815A77E1EECD584 /* Debug */,
+				9F51B99AD433565DD81F1D9945F8CEC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB07E22859E2A7B1EF6E59B235798C83 /* Build configuration list for PBXNativeTarget "Pods-TapbleLabel_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72D4CC24135475FB7613AEC32E7BB59B /* Debug */,
+				514429A35B83ABEB5692511F1A82CE5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDC2C7C62294AEF1A89CA65611E1DC7E /* Build configuration list for PBXNativeTarget "TapbleLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF8C684223D2005E5FA144ECD9B73563 /* Debug */,
+				5904244399FC50E3BC47DD6FAD67B833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
